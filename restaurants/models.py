@@ -5,4 +5,4 @@ class Restaurant(models.Model):
     description = models.TextField()
     opening_time = models.TimeField()
     closing_time = models.TimeField()
-    photo = models.ImageField(null=True, blank=True)
+    logo = models.ImageField(null=True, blank=True)
